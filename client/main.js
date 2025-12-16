@@ -35,19 +35,19 @@ const displayTraining = (training) => {
       `;
       return;
   }
-  notes.forEach((training) => {
+  training.forEach((training) => {
 
-    const noteDiv = document.createElement("div");
+    const trainingDiv = document.createElement("div");
 
-    noteDiv.className = "training";
+    trainingDiv.className = "training";
 
     const date = new Date(note.timestamp). toLocaleDateString("sv-SE");
 
-    noteDiv.innerHTML = `
+    trainingDiv.innerHTML = `
     <h3>${}</h3>
     <p>${}</p>
-    <div class="note-meta">
-      <span class="note-date">${date}</span>
+    <div class="training-meta">
+      <span class="training-date">${date}</span>
       </div>
       `;
     
