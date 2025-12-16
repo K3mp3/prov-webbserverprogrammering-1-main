@@ -1,15 +1,15 @@
 Del 1:
 
 Fråga 1: 
-a) GET= opens a message or post  
+a) GET= opens a message or post  gets data
 app.get("/reviews", (req,res) => {...}) //backend
 const response = await axios.get(`${API_URL}/reviews`) //frontend
 
-b) POST= creates a new message or post 
+b) POST= creates a new message or post  posts data
 app.post ("/save-reviews", (req, res) => {...}); //backend
 const response = await axios.post(`${API_URL}/save-reviews`, reviewData); //frontend
 
-c) DELETE= deletes a message or post with the ID
+c) DELETE= deletes a message or post with the ID deletes data
 app.delete("/reviews/:id", (req, res) => {...}); //backend
 const response = await axios.delete(`${API_URL}/reviews/${reviewId}`); frontend
 
