@@ -1,3 +1,16 @@
+/*
+  Din kod är relativt bra skriven.
+  Det ser ut som att du har kopierat från tidigare projekt vilket är okej.
+  Det finns vissa småfel dock som just nu hindrar koden från att fungera.
+
+  Du visar på att du har förståelse för hur projektet ska sättas upp, men missar
+  att kontrollera några viktiga delar. Som helhet skulle jag säga att du ligger på mellan E - D.
+
+  Koden fungerar inte helt när jag testar den. Det går att spara, hämta och radera träningspass, men du har missat att byta ut reviews till training samt stavat fel på filePath på ett ställe. När jag uppdaterar det så fungerar allt.
+
+  Jag har insett att provet kanske var lite väl stort, så du kommer ändå att bli godkänd
+*/
+
 import cors from "cors";
 import express from "express";
 import { v4 as uuidv4 } from "uuid";
